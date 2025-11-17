@@ -6,13 +6,31 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        navy: {
+          50: '#EEF3FF',
+          100: '#D9E2FF',
+          200: '#AEBFFB',
+          300: '#7A95F0',
+          400: '#4C6BD9',
+          500: '#2F4AA5',
+          600: '#1F357A',
+          700: '#152758',
+          800: '#0F1C3F',
+          900: '#0B152E',
+          950: '#080F22',
+        },
+        cream: '#FAF7F2',
+        gold: {
+          400: '#FACC15',
+          500: '#EAB308',
+          600: '#CA8A04',
+        }
+      },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        geist: ['Geist', 'system-ui', 'sans-serif'],
-        'geist-mono': ['Geist Mono', 'monospace'],
-        mona: ['Mona Sans', 'system-ui', 'sans-serif'],
-        'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
-        manrope: ['Manrope', 'system-ui', 'sans-serif'],
+        heading: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+        body: ['Lato', 'ui-sans-serif', 'system-ui'],
+        sans: ['Lato', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
